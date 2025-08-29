@@ -20,9 +20,9 @@
 
 ## 1. 工具简介 / Introduction
 
-本工具是一个用于在Unity编辑器中压缩3D网格（Mesh）的插件，可将网格顶点和三角形数据以半精度浮点数和索引压缩方式存储，显著减少内存和存储占用。压缩后的网格可在运行时动态解压，适用于对内存敏感的平台（如移动端、WebGL）。
+本工具是一个用于在Unity编辑器中压缩3D网格（Mesh）的插件，改变存储方式，显著减少内存和存储占用。压缩后的网格可在运行时动态解压，适用于对内存敏感的平台（如移动端、WebGL）。
 
-This tool is a Unity editor extension for compressing 3D meshes by storing vertex and triangle data in half-precision floats and compressed indices, significantly reducing memory and storage usage. Compressed meshes are decompressed at runtime, making it suitable for memory-sensitive platforms (e.g., mobile, WebGL).
+This tool is a plugin used to compress 3D meshes in the Unity editor, changing the storage method and significantly reducing memory and storage usage. The compressed grid can be dynamically decompressed at runtime, suitable for memory sensitive platforms such as mobile devices and WebGL.
 
 ## 2. 功能概述 / Features
 
@@ -141,8 +141,6 @@ The following image shows a build report after using mesh compression. Note the 
 **Q: 压缩后的网格会丢失精度吗？**
 A: 是的，可能轻微影响视觉效果，通常不易察觉。
 
-**Q: 是否支持自定义压缩算法？**
-A: 当前使用内置半精度和索引压缩，不支持自定义算法。
 
 **Q: 能否撤销压缩操作？**
 A: 不能自动撤销，请提前备份项目。
@@ -150,8 +148,6 @@ A: 不能自动撤销，请提前备份项目。
 **Q: Will compressed meshes lose precision?**
 A: Yes, which may slightly affect visual quality, usually not noticeable.
 
-**Q: Is custom compression algorithm supported?**
-A: Currently uses built-in half-precision and index compression; custom algorithms are not supported.
 
 **Q: Can I undo compression?**
 A: No automatic undo is provided; please backup your project before operation.

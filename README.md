@@ -56,7 +56,8 @@ Place the provided C# scripts in an `Editor` folder (e.g., `Assets/Editor/MeshCo
 In Unity Editor, go to:
 **Tools > Mesh Compression Tool**
 
-![工具界面](tool-window.png)
+![工具界面](Editor_CN.jpg)
+![工具界面](Editor_EN.jpg)
 
 ## 4. 使用教程 / Tutorial
 

@@ -139,7 +139,7 @@ The following image shows a build report after using mesh compression. Note the 
 ## 7. 常见问题 / FAQ
 
 **Q: 压缩后的网格会丢失精度吗？**
-A: 是的，顶点数据使用半精度浮点数，可能轻微影响视觉效果，通常不易察觉。
+A: 是的，可能轻微影响视觉效果，通常不易察觉。
 
 **Q: 是否支持自定义压缩算法？**
 A: 当前使用内置半精度和索引压缩，不支持自定义算法。
@@ -148,7 +148,7 @@ A: 当前使用内置半精度和索引压缩，不支持自定义算法。
 A: 不能自动撤销，请提前备份项目。
 
 **Q: Will compressed meshes lose precision?**
-A: Yes, vertex data uses half-precision floats, which may slightly affect visual quality, usually not noticeable.
+A: Yes, which may slightly affect visual quality, usually not noticeable.
 
 **Q: Is custom compression algorithm supported?**
 A: Currently uses built-in half-precision and index compression; custom algorithms are not supported.

@@ -1,7 +1,7 @@
 # Mesh压缩工具使用说明
 # Mesh Compression Tool User Guide
 
-![Unity](https://img.shields.io/badge/Unity-2021.3+-black.svg?style=flat&logo=unity)
+![Unity](https://img.shields.io/badge/Unity-2019.4+-black.svg?style=flat&logo=unity)
 
 ## 目录 / Table of Contents
 1. [工具简介 / Introduction](#1-工具简介--introduction)
@@ -108,8 +108,23 @@ In Unity Editor, go to:
 3. Confirm the dialog
 4. The tool will compress all referenced Meshes and replace them
 
+## 5. 压缩效果示例 / Compression Examples
 
-## 5. 注意事项 / Notes
+### 示例1：工具界面 / Example 1: Tool Window
+下图展示了Mesh压缩工具的主界面，您可以选择Mesh、设置保存路径并执行压缩操作。
+
+The following image shows the main interface of the Mesh Compression Tool, where you can select a Mesh, set the save path, and perform compression.
+
+![工具界面示例](inspector.jpg)
+
+### 示例2：构建报告 / Example 2: Build Report
+下图展示了使用网格压缩后的构建报告，可以看到网格资产的大小显著减少。
+
+The following image shows a build report after using mesh compression. Note the significant reduction in the size of mesh assets.
+
+![构建报告示例](BuidReport.jpg)
+
+## 6. 注意事项 / Notes
 
 - 🔸 压缩后的网格会在运行时解压，可能会轻微增加CPU开销
 - 🔸 建议在发布前进行测试，确保视觉和碰撞行为正常
@@ -121,7 +136,7 @@ In Unity Editor, go to:
 - 🔸 SkinnedMeshRenderer and dynamically generated meshes are not supported
 - 🔸 Temporary meshes are automatically cleaned before building to avoid inclusion in the build
 
-## 6. 常见问题 / FAQ
+## 7. 常见问题 / FAQ
 
 **Q: 压缩后的网格会丢失精度吗？**
 A: 是的，顶点数据使用半精度浮点数，可能轻微影响视觉效果，通常不易察觉。

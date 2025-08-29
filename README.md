@@ -161,4 +161,4 @@ A: No automatic undo is provided; please backup your project before operation.
 
 If you encounter any issues or have suggestions for improvement, please contact the development team.
 
-**版本: 1.0.0** | **更新日期: 2023-11-15**
+**版本: 1.0.0** | **更新日期: 2025-08-29**
